@@ -1,0 +1,36 @@
+PODS:
+  - ABFRealmMapView (1.7.3):
+    - RBQFetchedResultsController (>= 2.0)
+    - Realm (>= 0.96)
+  - RBQFetchedResultsController (3.0.1):
+    - Realm (>= 0.95)
+  - Realm (0.99.0):
+    - Realm/Headers (= 0.99.0)
+  - Realm/Headers (0.99.0)
+  - RealmMapView (1.7.3):
+    - ABFRealmMapView (>= 1.7.3)
+    - RealmSwift (>= 0.96)
+    - SwiftFetchedResultsController (>= 2.4.3)
+  - RealmSwift (0.99.0):
+    - Realm (= 0.99.0)
+  - RealmSwiftSFRestaurantData (0.4.1):
+    - RealmSwift (>= 0.96)
+  - SwiftFetchedResultsController (3.0.1):
+    - RBQFetchedResultsController (>= 3.0.1)
+    - RealmSwift (>= 0.96)
+
+DEPENDENCIES:
+  - RealmMapView
+  - RealmSwift
+  - RealmSwiftSFRestaurantData
+
+SPEC CHECKSUMS:
+  ABFRealmMapView: e3d18e6a2df1713c07b4e518504558ecbadc9968
+  RBQFetchedResultsController: 4b8a80647859241abdb3da04b486a6ad02dd5093
+  Realm: cf275f109b94e5399896960c90285a043edb3d56
+  RealmMapView: 2a3de4d3434e8e0778075d1a9cf34e12161a3daf
+  RealmSwift: f40e5634bbc74f063163561d02acc4aa040d40a5
+  RealmSwiftSFRestaurantData: 4158de2ee48508592315fb70378cf964d7d87608
+  SwiftFetchedResultsController: 646da58a5cde2293b692f5c8283d1db001d720bc
+
+COCOAPODS: 0.39.0
